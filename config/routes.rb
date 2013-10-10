@@ -2,7 +2,7 @@ Omrails::Application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
-  omrails::Application.routes.draw do
+  Omrails::Application.routes.draw do
     root 'application#index'
   end
 
