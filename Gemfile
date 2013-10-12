@@ -8,7 +8,7 @@ gem 'rails_12factor', group: :production
 ruby '1.9.3'
 
 #Assets
-gem "bootstrap-sass-rails", "~> 3.0.0.3"
+#gem "bootstrap-sass-rails", "~> 3.0.0.3"
 
 # Use sqlite3 as the database for Active Record
 
