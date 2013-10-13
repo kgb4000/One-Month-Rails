@@ -1,15 +1,15 @@
-
-<div class="container">
-  <div class="row jumbotron">
+<div class="row jumbotron">
+  <div class="container">
     <div class="col-md-8">
       <h1>Beautiful, Custom Wedding Websites for any device</h1>
       <p>Visit <%= link_to "mikelovesmindy.com", "http://jaellewedsites.com" %> on your smart phone, tablet, and desktop.</p>
-      <button type="submit" class="btn btn-primary navbar-btn">Free 14 day Trial Today!</button>
+      <%= link_to "Free 14 day Trial", new_user_registration_path, class: "btn btn-primary " %>
       <p class=""><small>No Credit Card required</small></p>
     </div>
     <div class="col-md-4 center">   
       <%= image_tag "jaelle-wedsite-phone.png" %>
     </div>
+  </div>
 </div>
 
 <div class="container features">
@@ -17,22 +17,22 @@
     <section class="col-xs-12">
       <h2>Features</h2>
 
-      <div class="row">
-        <div class="col-md-3">
+      <div class="row two">
+        <div class="col-sm-6 col-md-3">
          <div class="icon" data-icon="&#xe005;" aria-hidden="true">
          </div>
           <p>Looks good on any device. Mobile, tablet, or desktop.
           </p>
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
         <div class="icon" data-icon="&#xe00b;" aria-hidden="true"></div>
           <p>You can choose your own custom domain name.</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
         <div class="icon" data-icon="&#xe007;" aria-hidden="true"></div>
           <p>Original and professional responsive designs.</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
         <div class="icon" data-icon="&#xe004;" aria-hidden="true"></div>
           <p>A picture gallery you'll want to show your friends.</p>
         </div>
@@ -40,19 +40,19 @@
       
 
       <div class="row two">
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
         <div class="icon" data-icon="&#xe002;" aria-hidden="true"></div>
           <p>Password protect your website (Only you and your guest can login and view your wedding website) Coming soon.</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
         <div class="icon" data-icon="&#xe006;" aria-hidden="true"></div>
           <p>Family and friends can link directly to your online gift registry from a tablet and mobile device.</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
         <div class="icon" data-icon="&#xe001;" aria-hidden="true"></div>
           <p>A map of your events for your guests for guest using Google Maps and geolocation.</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
         <div class="icon" data-icon="&#xe000;" aria-hidden="true"></div>
           <p>Communicate directly with the web designer. If you have any questions, I will make myself available.</p>
         </div>
@@ -63,10 +63,10 @@
 
 
 <div class="container how-it-works">
-  <div class="row">
+  <div class="row two">
     <section class="col-md-6">
       <h2>How it Works</h2>
-      <ul class="list-inline">
+      <ul class="list-inline two">
         <li><%= link_to "Sign up", "#" %> and login at Jaelle Wedsites</li>
         <li>Choose the design style you want</li>
         <li>Fill out the infromation you want on your wedding website</li>
@@ -76,14 +76,14 @@
         <li>We build your own custom unique wedding website.</li>
         <li>Choose your payment method (monthly or yearly) after your 14 day trial has ended</li>
       </ul>
-      <button class="btn btn-primary">Sign up today</button>
+      <%= link_to "Sign up Today!", new_user_registration_path, class: "btn btn-primary " %>
     </section>
   </div>
 </div>
 
 
 <div class="container">
-  <div class="row">
+  <div class="row two">
     <section class="col-md-12">
       <h2>Latest Designs</h2>
       <div class="col-md-4 box1"></div>

@@ -1,11 +1,25 @@
 Omrails::Application.routes.draw do
 
+  devise_for :users
+
   get 'about' => 'pages#about'
 
 
   root :to => "pages#home"
 
+  get 'faq' => 'pages#faq'
 
+  get 'features' => 'pages#features'
+
+  get 'help' => 'pages#help'
+
+  get 'terms' => 'pages#terms'
+
+  get 'pricing' => 'pages#pricing'
+
+  get 'blog' => 'pages#blog'
+
+  get 'contact' => 'pages#contact'
 
 
 

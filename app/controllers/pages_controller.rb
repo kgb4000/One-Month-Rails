@@ -6,5 +6,27 @@ class PagesController < ApplicationController
   def action
   	#content
   end
+
+  def action
+  	#content
+  end
+
+  def action
+  	#content
+  end
+
+  def action
+  	#content
+  end
+
+  def action
+  	#content
+  end
+
+  def action
+  	#content
+  end
+
+
 end
  

@@ -7,6 +7,9 @@ gem 'rails_12factor', group: :production
 
 ruby '1.9.3'
 
+gem 'devise'
+
+gem 'simple_form'
 #Assets
 #gem "bootstrap-sass-rails", "~> 3.0.0.3"
 
